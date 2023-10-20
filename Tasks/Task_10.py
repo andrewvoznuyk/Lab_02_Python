@@ -1,5 +1,8 @@
-A = int(input("Enter number A: "))
-B = int(input("Enter number B (B should be greater than A): "))
+while True:
+    A = int(input("Enter number A: "))
+    B = int(input("Enter number B (B should be greater than A): "))
+    if A < B:
+        break
 
 # Initialize a variable to store the sum
 total_sum = 0
